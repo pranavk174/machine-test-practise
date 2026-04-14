@@ -19,7 +19,7 @@ const Watch = () => {
 
   const numbers = Array.from({ length: 12 }, (_, i) => i + 1);
   const seconds = Array.from({ length: 60 }, (_, i) => i + 1);
-  console.log(time.second, "time", time);
+  // console.log(time.second, "time", time);
   return (
     <div>
       <div className="w-[300px] h-[300px] p-1 rounded-full border border-amber-600 dark:bg-white shadow-2xl  dark:border-white bg-black ">
@@ -54,7 +54,7 @@ const Watch = () => {
                 style={{
                   transform: `
           rotate(${num * 6}deg)
-          translateY(-100px)
+          translateY(-110px)
      
         `,
                 }}
